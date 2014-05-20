@@ -8,5 +8,5 @@ $app->get('/hello/:name', function ($name) {
 });
 $app->get('/', function () {
     echo "Your homepage";
-})
+});
 $app->run();
