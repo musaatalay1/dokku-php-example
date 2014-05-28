@@ -9,9 +9,10 @@ really, there is not much here. copypasterino from the heroku nginx config and c
 
 you need to commit the composer.lock file. to update you will need to run a composer update if you would like to update slim and then deploy.
 
+the .json is set to 2.*. last time i updated this lock was set to 2.4.3. if you want to upgrade to the lastest version of slim you will need to rebuild the lock file with composer.
+
 
 todo: 
 
-1. decide on what version of slim? 2.* ok?
-2. need to move the app to a subfolder to prevent people from pulling down config. While this is open source it's not super important but would be a best practice.
+1. need to move the app to a subfolder to prevent people from pulling down config. While this is open source it's not super important but would be a best practice.
 
