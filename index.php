@@ -7,6 +7,6 @@ $app->get('/hello/:name', function ($name) {
     echo "Hello, $name";
 });
 $app->get('/', function () {
-    echo "Your homepage";
+    echo "Hello, Dokku PHP!";
 });
 $app->run();
